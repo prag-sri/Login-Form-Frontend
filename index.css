@@ -1,0 +1,117 @@
+*{
+    font-family: 'Montserrat',sans-serif;
+    /* margin: none; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box;
+    user-select: none; */ */
+}
+body{
+    display: flex;
+    padding: none;
+    margin: 0px;
+    position: relative;
+}
+.img_bg{
+    background-image: url(https://cdn.shopify.com/s/files/1/0288/5474/7222/files/Blog_header_Desk_2048x.progressive.jpg?v=1613708225);
+    width: 100%;
+    height: 570px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    /* border: 2px solid black; */
+}
+.login{
+    text-align: center;
+    color: white;
+}
+input{
+    border: none;
+    margin: auto;
+    
+}
+.emailPhone{
+    /* border: 2px solid black; */
+    background-color: white;
+    position: relative;   
+    padding: 3.5px;
+    padding-top: 5px;
+}
+#input_email, #input_password{
+    position: absolute;
+    top: 8px;
+}
+input:focus{
+    outline: none;
+}
+.password{
+    background-color: white;
+    /* border: 2px solid black; */
+    position: relative; 
+    top: 10px;
+    padding: 3.5px;
+}
+#icon{
+    width: 20px;
+    font-size: 18px;
+    padding-left: 6px;
+    padding-top: 2px;
+}
+#forgot_heading{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.login_btn{
+    width: 250px;
+    height: 38px;
+    background: #3498db;
+    border: #308dcb;
+    font-family: 'Poppins',sans-serif;
+}
+.login_btn a{
+    text-decoration: none;
+    color: white;
+}
+#loginwith_heading{
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+.fb_btn{
+    width: 120px;
+    height: 30px;
+    background: #4267B2;
+    border: 1px solid #3e61a8;
+    color: white;
+}
+.insta_btn{
+    width: 120px;
+    height: 30px;
+    background: #E1306C;
+    border: 1px solid #df2060;   
+    color: white; 
+}
+span{
+    padding-left: 5px;
+}
+#no_acc{
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+}
+#signup_now{
+    text-decoration: none;
+    color: #3498db;
+}
